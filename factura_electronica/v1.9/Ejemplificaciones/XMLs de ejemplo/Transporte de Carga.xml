@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sts="dian:gov:co:facturaelectronica:Structures-2-1" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2     http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+	xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+	xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+	xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+	xmlns:sts="dian:gov:co:facturaelectronica:Structures-2-1"
+	xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
 	<ext:UBLExtensions>
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
@@ -17,17 +25,27 @@
 						</sts:AuthorizedInvoices>
 					</sts:InvoiceControl>
 					<sts:InvoiceSource>
-						<cbc:IdentificationCode listAgencyID="6" listAgencyName="United Nations Economic Commission for Europe" listSchemeURI="urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-2.1">CO</cbc:IdentificationCode>
+						<cbc:IdentificationCode listAgencyID="6"
+							listAgencyName="United Nations Economic Commission for Europe"
+							listSchemeURI="urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-2.1">
+							CO</cbc:IdentificationCode>
 					</sts:InvoiceSource>
 					<sts:SoftwareProvider>
-						<sts:ProviderID schemeID="4" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">800197268</sts:ProviderID>
-						<sts:SoftwareID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">fa326ca7-c1f8-40d3-a6fc-24d7c1040607</sts:SoftwareID>
+						<sts:ProviderID schemeID="4" schemeName="31" schemeAgencyID="195"
+							schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">800197268</sts:ProviderID>
+						<sts:SoftwareID schemeAgencyID="195"
+							schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">
+							fa326ca7-c1f8-40d3-a6fc-24d7c1040607</sts:SoftwareID>
 					</sts:SoftwareProvider>
-					<sts:SoftwareSecurityCode schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">bc2bfb5f5981c2baa459f09cdb986cfe67843db593f541f0683a54023d5e0eccacb4a5bb1f9654e8456741d3b3290f52</sts:SoftwareSecurityCode>
+					<sts:SoftwareSecurityCode schemeAgencyID="195"
+						schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">
+						bc2bfb5f5981c2baa459f09cdb986cfe67843db593f541f0683a54023d5e0eccacb4a5bb1f9654e8456741d3b3290f52</sts:SoftwareSecurityCode>
 					<sts:AuthorizationProvider>
-						<sts:AuthorizationProviderID schemeID="4" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">800197268</sts:AuthorizationProviderID>
+						<sts:AuthorizationProviderID schemeID="4" schemeName="31" schemeAgencyID="195"
+							schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">800197268</sts:AuthorizationProviderID>
 					</sts:AuthorizationProvider>
-					<sts:QRCode>https://gtpa-web-prototype-test.azurewebsites.net/document/searchqr?documentkey=6674b21dc2a89d0923493bb09bd61b0e2b23ee9764f399cd20a07c1325eb0744bf202e880587751bc6490f77eada3cb9</sts:QRCode>
+					<sts:QRCode>
+						https://gtpa-web-prototype-test.azurewebsites.net/document/searchqr?documentkey=6674b21dc2a89d0923493bb09bd61b0e2b23ee9764f399cd20a07c1325eb0744bf202e880587751bc6490f77eada3cb9</sts:QRCode>
 				</sts:DianExtensions>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
@@ -37,16 +55,18 @@
 	<cbc:ProfileID>DIAN 2.1: Factura Electrónica de Venta</cbc:ProfileID>
 	<cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
 	<cbc:ID>SETG980000007</cbc:ID>
-	<cbc:UUID schemeID="2" schemeName="CUDE-SHA384">40223e2f1e27b005e4ef0c909ccaa4ecc4813cc6f6543a12325d8f885ceb671d62c79fe19839e38e4e48529dcab0647d</cbc:UUID>
+	<cbc:UUID schemeID="2" schemeName="CUDE-SHA384">
+		40223e2f1e27b005e4ef0c909ccaa4ecc4813cc6f6543a12325d8f885ceb671d62c79fe19839e38e4e48529dcab0647d</cbc:UUID>
 	<cbc:IssueDate>2023-06-20</cbc:IssueDate>
 	<cbc:IssueTime>18:04:10-05:00</cbc:IssueTime>
 	<cbc:DueDate>2023-06-30</cbc:DueDate>
 	<cbc:InvoiceTypeCode>03</cbc:InvoiceTypeCode>
 	<cbc:Note>Linea de negocio: </cbc:Note>
-	<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6" listAgencyName="United Nations Economic Commission for Europe">COP</cbc:DocumentCurrencyCode>
+	<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6"
+		listAgencyName="United Nations Economic Commission for Europe">COP</cbc:DocumentCurrencyCode>
 	<cbc:LineCountNumeric>2</cbc:LineCountNumeric>
 	<cac:OrderReference>
-	    <cbc:ID>0001</cbc:ID>
+		<cbc:ID>0001</cbc:ID>
 		<cbc:IssueDate>2023-06-20</cbc:IssueDate>
 	</cac:OrderReference>
 	<cac:AccountingSupplierParty>
@@ -74,7 +94,8 @@
 			</cac:PhysicalLocation>
 			<cac:PartyTaxScheme>
 				<cbc:RegistrationName>PRUEBAS PILOTO III-2021</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="3" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374636</cbc:CompanyID>
+				<cbc:CompanyID schemeID="3" schemeName="31" schemeAgencyID="195"
+					schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374636</cbc:CompanyID>
 				<cbc:TaxLevelCode listName="">R-99-PN</cbc:TaxLevelCode>
 				<cac:RegistrationAddress>
 					<cbc:ID>11001</cbc:ID>
@@ -97,7 +118,8 @@
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>PRUEBAS PILOTO III-2021</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="3" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374636</cbc:CompanyID>
+				<cbc:CompanyID schemeID="3" schemeName="31" schemeAgencyID="195"
+					schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374636</cbc:CompanyID>
 				<cac:CorporateRegistrationScheme>
 					<cbc:ID>SETG</cbc:ID>
 				</cac:CorporateRegistrationScheme>
@@ -132,7 +154,8 @@
 			</cac:PhysicalLocation>
 			<cac:PartyTaxScheme>
 				<cbc:RegistrationName>PRUEBAS2</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="9" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374634</cbc:CompanyID>
+				<cbc:CompanyID schemeID="9" schemeName="31" schemeAgencyID="195"
+					schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374634</cbc:CompanyID>
 				<cbc:TaxLevelCode listName="">O-13</cbc:TaxLevelCode>
 				<cac:RegistrationAddress>
 					<cbc:ID>11001</cbc:ID>
@@ -155,7 +178,8 @@
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>PRUEBAS2</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="9" schemeName="31" schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374634</cbc:CompanyID>
+				<cbc:CompanyID schemeID="9" schemeName="31" schemeAgencyID="195"
+					schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">900374634</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
 				<cbc:Telephone>222222222</cbc:Telephone>
@@ -235,17 +259,17 @@
 				<cbc:ID schemeID="001">18234000-8</cbc:ID>
 			</cac:StandardItemIdentification>
 			<cac:AdditionalItemProperty>
-			    <cbc:Name>01</cbc:Name>
-			    <cbc:Value>13456</cbc:Value>
+				<cbc:Name>01</cbc:Name>
+				<cbc:Value>13456</cbc:Value>
 			</cac:AdditionalItemProperty>
 			<cac:AdditionalItemProperty>
-			    <cbc:Name>02</cbc:Name>
-			    <cbc:Value>REM0001</cbc:Value>
+				<cbc:Name>02</cbc:Name>
+				<cbc:Value>REM0001</cbc:Value>
 			</cac:AdditionalItemProperty>
 			<cac:AdditionalItemProperty>
-			    <cbc:Name>03</cbc:Name>
-			    <cbc:Value>250000</cbc:Value>
-			    <cbc:ValueQuantity unitCode="KGM">10</cbc:ValueQuantity>
+				<cbc:Name>03</cbc:Name>
+				<cbc:Value>250000</cbc:Value>
+				<cbc:ValueQuantity unitCode="KGM">10</cbc:ValueQuantity>
 			</cac:AdditionalItemProperty>
 		</cac:Item>
 		<cac:Price>
