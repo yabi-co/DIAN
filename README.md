@@ -8,7 +8,7 @@ Copia de la información publica de facturación electrónica de la DIAN sobre l
 
 ## API yabi.co para de facturación electrónica de la DIAN
 
-Si requieres enviar documentos electrónicos de la DIAN (factura electrónica, nota crédito, nota débito, documento soporte de adquisiciones, documento soporte de pago de nomina electrónica y documento electrónicos equivalentes)
+Si requieres enviar documentos electrónicos de la DIAN (factura electrónica, nota crédito, nota débito, documento soporte de adquisiciones, documento soporte de pago de nomina electrónica y documento electrónicos equivalentes), lo puedes realizar a traves de nuestra API en GraphQL.
 
 Para mayor información del servicio en [www.yabi.co](https://www.yabi.co/?utm_medium=link&utm_source=github)
 Contáctenos en:
